@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import LoginPage from "../pages/LoginPage";
 import { useNavigate } from "react-router-dom";
 import { navLinks } from "../data/index";
 import { NavLink } from "react-router-dom";
@@ -25,7 +24,7 @@ const NavbarComponent = () => {
     <div>
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
-          <Navbar.Brand href="#home" className="fs-4 fw-bold">
+          <Navbar.Brand href="/" className="fs-4 fw-bold">
             Studiobook.
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -6,7 +6,7 @@ import axios from "axios";
 axios.defaults.withCredentials = true;
 
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "./dist/css/main.css";
+import "./dist/css/main.css";
 import "animate.css";
 
 import AOS from "aos";
